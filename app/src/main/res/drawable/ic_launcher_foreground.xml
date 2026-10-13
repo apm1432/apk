@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Graduation Cap Top diamond -->
+        <path
+            android:pathData="M 54,28 L 86,40 L 54,52 L 22,40 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="22"
+                    android:startY="28"
+                    android:endX="86"
+                    android:endY="52"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#388BFD" />
+                    <item android:offset="1.0" android:color="#58A6FF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Cap Underneath Base -->
+        <path
+            android:fillColor="#1F6FEB"
+            android:pathData="M 34,46 L 34,60 C 34,68 74,68 74,60 L 74,46 L 54,53 Z" />
+        <!-- Tassel String & Drop -->
+        <path
+            android:strokeColor="#79C0FF"
+            android:strokeWidth="2.5"
+            android:fillColor="#00000000"
+            android:pathData="M 80,41 L 84,54 L 84,62" />
+        <path
+            android:fillColor="#58A6FF"
+            android:pathData="M 82,62 L 86,62 L 85,67 L 83,67 Z" />
+        <!-- Glowing Stream Play Triangle Center Badge -->
+        <path
+            android:pathData="M 48,66 L 64,75 L 48,84 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="48"
+                    android:startY="66"
+                    android:endX="64"
+                    android:endY="84"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#2EA043" />
+                    <item android:offset="1.0" android:color="#56D364" />
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>

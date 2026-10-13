@@ -1,0 +1,6 @@
+{
+  "name": "CourseStream",
+  "description": "Seamless Telegram Course Streaming and Offline Learning with Admin and Student portals",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
